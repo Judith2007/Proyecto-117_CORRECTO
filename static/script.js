@@ -54,7 +54,7 @@ $(document).ready(function(){
                 $('#sentiment').text(prediction)
                 $('#sentiment').show()
 
-                $('#emoji').attr('src', emoji_url);
+                $('#emoji').attr('src', emoji_url)
                 $('#emoji').show()
             },
 
